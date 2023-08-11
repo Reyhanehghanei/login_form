@@ -1,0 +1,132 @@
+/* fonts */
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url(../fonts/PlusJakartaSans-Medium.ttf);
+}
+
+/* end-fonts */
+* {
+  
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: unset;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+   
+    background-size: cover;
+    font-family: PlusJakartaSans;
+    background-repeat: no-repeat;
+    background-image: url(../img/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+}
+
+/* start_background */
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(#3ebefec6, #9f47d2aa);
+}
+
+/* end_background */
+/* start_container */
+.container {
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    min-height: 85%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 0.764);
+}
+.tick {
+    background-position: 15rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/check-circle.svg);
+}
+
+/* end_container */
+/* start_header */
+.container .header {
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .header a {
+    gap: 6px;
+    font-size: 16px;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .header h2 {
+    color: rgb(75, 97, 147);
+}
+
+/* end_header */
+/* start_main */
+.main {
+    text-align: center;
+}
+
+.container .main h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(75, 97, 147);
+}
+
+.container .main p {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+/* start_form */
+.m_b_20{
+    width: 16rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+label {
+    color: grey;
+    font-size: 14px;
+}
+.container .main form button {
+    border: none;
+    color: white;
+    margin-top: 15px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    background-color: palevioletred;
+}
+.container .main form input:focus {
+    border-bottom: palevioletred solid 1px ;
+}
+/* end_form */
+/* start_footer */
+footer {
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+footer a {
+    color: gray;
+}
+/* end_footer */
+/* end_main */
